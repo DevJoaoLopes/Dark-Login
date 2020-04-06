@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
       title: 'Learn Flutter App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        brightness: Brightness.dark,
         primarySwatch: Colors.blue,
       ),
       home: Login(),
